@@ -72,7 +72,11 @@ const renderValue = (value: string | boolean) => {
 
 export function ComparisonSection() {
 	return (
-		<section className='py-24 px-4 sm:px-6 lg:px-8 bg-secondary/30'>
+		<section
+			id='comparison'
+			aria-label='Service Comparison'
+			className='py-24 px-4 sm:px-6 lg:px-8 bg-secondary/30'
+		>
 			<div className='max-w-6xl mx-auto'>
 				<div className='text-center mb-16'>
 					<div className='inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm mb-4'>

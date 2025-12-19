@@ -1,35 +1,39 @@
-import { Zap, Shield, Smartphone, Clock } from 'lucide-react';
+import { Search, TrendingUp, Users, Sparkles } from 'lucide-react';
 
 const features = [
 	{
-		icon: Zap,
-		title: 'Lightning Fast',
+		icon: Search,
+		title: 'SEO-Ready Website',
 		description:
-			'Keep visitors engaged—your site loads in under 2 seconds, reducing bounce rates by 40% and keeping customers on your page.',
+			'Get found on Google faster. Your website comes optimized for search engines so customers can discover your business when searching online.',
 	},
 	{
-		icon: Shield,
-		title: 'Secure & Reliable',
+		icon: TrendingUp,
+		title: 'Boost Your Sales',
 		description:
-			'Build customer trust instantly. SSL certificates and security features show that padlock icon—proving your business is legitimate and safe.',
+			'Convert visitors into customers. Professional design builds trust and credibility, increasing inquiries by up to 3x compared to DIY sites.',
 	},
 	{
-		icon: Smartphone,
-		title: 'Mobile-First Design',
+		icon: Users,
+		title: 'Reach More Customers',
 		description:
-			'Reach 70% more customers. Your site works flawlessly on phones where most of your audience browses—no pinching or zooming needed.',
+			'Perfect on every device. 75% of Nigerians browse on mobile—your site works flawlessly on all phones, tablets, and computers.',
 	},
 	{
-		icon: Clock,
-		title: 'Quick Turnaround',
+		icon: Sparkles,
+		title: 'Stand Out Online',
 		description:
-			'Start getting customers in days, not months. Launch your online presence before competitors and start generating leads this month.',
+			'Look professional, be memorable. Custom designs that showcase your brand and make you stand out from competitors still using generic templates.',
 	},
 ];
 
 export function FeaturesSection() {
 	return (
-		<section className='py-24 px-4 sm:px-6 lg:px-8 bg-secondary/30'>
+		<section
+			id='features'
+			aria-label='Features'
+			className='py-24 px-4 sm:px-6 lg:px-8 bg-secondary/30'
+		>
 			<div className='max-w-6xl mx-auto'>
 				<div className='text-center mb-16'>
 					<h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-balance'>

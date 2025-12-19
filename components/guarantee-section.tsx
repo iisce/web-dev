@@ -31,7 +31,11 @@ const guarantees = [
 
 export function GuaranteeSection() {
 	return (
-		<section className='py-24 px-4 sm:px-6 lg:px-8'>
+		<section
+			id='guarantee'
+			aria-label='Our Guarantees'
+			className='py-24 px-4 sm:px-6 lg:px-8'
+		>
 			<div className='max-w-6xl mx-auto'>
 				<div className='text-center mb-16'>
 					<div className='inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 text-green-600 dark:text-green-400 text-sm mb-4'>

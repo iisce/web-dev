@@ -41,7 +41,10 @@ export function Footer() {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className='bg-secondary/30 border-t border-border'>
+		<footer
+			aria-label='Site Footer'
+			className='bg-secondary/30 border-t border-border'
+		>
 			<div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
 				{/* Main Footer Content */}
 				<div className='py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8'>

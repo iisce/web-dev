@@ -6,7 +6,11 @@ import { UrgencyBanner } from './urgency-banner';
 
 export function HeroSection() {
 	return (
-		<section className='relative min-h-screen grid grid-rows-[1fr_auto]  overflow-hidden'>
+		<section
+			id='home'
+			aria-label='Hero Section'
+			className='relative min-h-screen grid grid-rows-[1fr_auto]  overflow-hidden'
+		>
 			{/* Grid background */}
 			<div className='absolute inset-0 bg-[linear-gradient(to_right,#1a1a1a_1px,transparent_1px),linear-gradient(to_bottom,#1a1a1a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)] px-4 sm:px-6 lg:px-8' />
 
